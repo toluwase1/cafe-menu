@@ -1,0 +1,121 @@
+ul
+{
+list-style-type: none;
+}
+h1 {
+    font-size: 47px !important;
+  }
+  
+  h2 {
+    font-size: 40px !important;
+  }
+  
+  h3 {
+    font-size: 30px !important;
+  }
+  
+  h4 {
+    font-size: 20px !important;
+  }
+  
+  p {
+    font-size: 18px !important;
+  }
+
+ 
+ 
+  .logofont{
+    font-family: Aclonica;
+  }
+
+  header {
+    background-image: url("../browncoffee.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 690px;
+    position: relative;
+  }
+
+  footer {
+    background-image: url("../footerimage.png");
+  }
+  
+  header::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.59);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav, header > section {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .gold-filled-btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #F8BE2A;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+  }
+  
+  .transparent-btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #F8BE2A;
+    color: #F8BE2A;
+    background: transparent;
+    outline: none;
+  }
+  
+  .text-yellow {
+    color: #F8BE2A !important;
+  }
+  
+  .blackish {
+    background-color:#363636; !important;
+  }
+  
+  .black {
+    background-color: #000000;
+  }
+  
+  .textu {
+    font-family: Aclonica !important;
+    text-decoration: underline;
+  }
+  
+  .margin-top {
+    margin-top: 150px;
+  }
+  
+  .center-text {
+    max-width: 600px;
+    margin: 0 auto !important;
+  }
+  
+  .img-resize {
+    width: 26px !important;
+    height: 22px !important;
+  }
+
+  .middle {
+    display: flex;
+    justify-content: center;
+  }
+.footerimg{
+    position: absolute;
+width: 1440px;
+height: 501px;
+left: 0px;
+top: 3026px;
+
+background: url(footerimg);
+}

@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script defer src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+    <title>CAFE - MENU</title>
+</head>
+
+<body>
+    <header class="bg-dark d-flex flex-column">
+        <nav class="navbar navbar-expand-md navbar-dark pt-5 px-5 ">
+            <!-- Brand -->
+            <a class="navbar-brand text-capitalize text-yellow" href="#">
+                <h2 class="logofont">kofi<span class="text-capitalize text-underline font-weight-bold">Cafe</span></h2>
+            </a>
+
+            <!-- Togglers -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- The Navbars -->
+            
+            <div class="collapse navbar-collapse justify-content-md-center navbar-fixed-top" id="collapsibleNavbar">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-yellow px-4" href="#">menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white px-4" href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="gold-filled-btn d-none d-md-block  " type="button">order a cup</button>
+        </nav>
+
+        <section class="d-flex justify-content-center align-self-center text-center margin-top">
+            <div class="align-self-center">
+                <h1 class="text-yellow">Our Menu</h1>
+               
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+
+        <section class="text-center black py-5 blackish">
+            
+           
+    <div class="tab-content blackish">
+        <div class="container blackish">
+            <h2 class="text-yellow text-capitalize mb-4">Explore Our Menu</h2>
+
+            <ul class="middle nav-fill nav-tabs" id="nav-tab" role="tablist">
+                <li class="text-yellow active px-4"><a data-toggle="tab" class="nav-link text-yellow px-4" id="#mainmenu" href="#mainmenu"  role="tab">Main Menu</a></li>
+                <li class="text-white px-4"> <a data-toggle="tab" class="nav-link text-yellow px-4" id="#desserts" href="#desserts"  role="tab">Desserts</a></li>
+                <li class="text-white px-4"> <a data-toggle="tab" class="nav-link text-yellow px-4" id="#specials" href="#specials"  role="tab">Specials</a> </li>
+            </ul>
+        </div>
+
+        <div class="tab-pane active" id="mainmenu">
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/irishcoffee.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/caffeamericano.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/filtercoffee.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/green.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/redamericano.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/blackcoffee.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 69.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 62.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 65.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 69.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 62.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 65.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+        </div>  
+
+        <div class="tab-pane" id="desserts">
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 53.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 64.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 52.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 55.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 56.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 57.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 68.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 64.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 66.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 66.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 66 (1).png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 66 (2).png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+        </div>  
+
+        <div class="tab-pane" id="specials">
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/irishcoffee.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/caffeamericano.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/filtercoffee.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/green.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/redamericano.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/blackcoffee.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-center">
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 69.png" class="img-fluid" alt="irish coffee">
+                    <h3 class="text-yellow text-capitalize">irish coffee</h3>
+                    <h3 class="text-white">$4</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 62.png" class="img-fluid" alt="caffe americano">
+                    <h3 class="text-yellow text-capitalize">caffe americano</h3>
+                    <h3 class="text-white">$2</h3>
+                </div>
+                <div class="px-3 py-sm-3">
+                    <img src="./images/Rectangle 65.png" class="img-fluid" alt="filter-coffee">
+                    <h3 class="text-yellow text-capitalize">filter coffee</h3>
+                    <h3 class="text-white">$4.5</h3>
+                </div>
+            </div>
+        </div>  
+
+    </div>  
+
+          </section>
+        
+    </main>
+
+    <footer class="black py-5">
+        <div class="row mx-5">
+                <div class="col-sm-4">
+                <h4 class="text-yellow text-capitalize font-weight-bold">Kofi<span
+                        class="text-capitalize textu font-weight-bold">Cafe</span></h4>
+                <p class="text-white"> <img src="./images/phone.png" alt="" class="mr-2 img-resize"> 08126325978, 01563928</p>
+                <p class="text-white"> <img src="./images/locator.png" alt="" class="mr-2 img-resize"> 3100 Eve Street, Riverside,
+                    CA 83412</p>
+                <p class="text-white"> <img src="./images/mail.png" alt="" class="mr-2 img-resize"> info@koficafe.com </p>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="text-yellow text-capitalize font-weight-bold">working days</h4>
+                <p class="text-capitalize text-white">monday - friday</p>
+                <p class="text-yellow">9am - 9pm</p>
+                <p class="text-capitalize text-white">saturday - sunday</p>
+                <p class="text-yellow">10am - 4pm</p>
+            </div>
+            <div class="col-sm-4">
+                <h4 class="text-yellow font-weight-bold">follow us</h4>
+                <a href=""><img src="./images/facebook.png" alt="" class="mr-2 img-resize"></a>
+                <a href=""><img src="./images/instagram.png" alt="" class="mr-2 img-resize"></a>
+                <a href=""><img src="./images/twitter.png" alt="" class="mr-2 img-resize"></a>
+            </div>
+            <div class="col-sm-4">
+                <p class="text-yellow">  © 2020 KofiCafe All Right Reserved</p>
+            </div>    
+        </div>
+    </footer>
+
+</body>
+
+</html>
